@@ -1,25 +1,391 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 header{
-    background-image: url("./images/Banner\ Image.png");
     border-radius: 16px;
     background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%);
 }
+
 header h4{
     color: rgb(255, 255, 255);
     font-family: Merriweather;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 400;
-    line-height: 40px;
+    line-height: 34px;
     letter-spacing: 0%;
     text-align: center;
 }
 header h1{
     color: rgb(255, 255, 255);
     font-family: Merriweather;
-    font-size: 72px;
+    font-size: 61px;
     font-weight: 900;
-    line-height: 95px;
+    line-height: 81px;
+    letter-spacing: 0%;
+    width: 632px;
+    text-align: center;
+    margin-left: 344px;
+}
+
+#new-year-sell{
+    width: 802px; 
+    text-align: center;
+    margin-left: 350px;
+}
+#new-year-sell h1{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
     letter-spacing: 0%;
     text-align: center;
+}
+#new-year-sell h3{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#new-year-sell h2{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.party-invitation{
+    display: flex;
+    height:600px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%);
+    background-image: url('./images/Vectorrr.png');
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    
+}
+.party-invitation .party-invitation-card{
+    width: 697px;
+    margin-left: 220px;
+    margin-top: 100px;
+}
+.party-invitation .party-invitation-card h1{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+    text-align: left;
+}
+.party-invitation .party-invitation-card p{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.party-invitation .party-invitation-card .party-join{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    border:none;
+    background-color: transparent;
+}
+.party-time{
+    width: 1320px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    text-align: center;
+    margin-top: 150px;
+}
+.party-time p{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 100px;
+}
+.party-time p span{
+    color: rgb(255, 0, 0);
+}
+.party-time button{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 16px 32px 16px 32px;
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    border: none;
+    margin-bottom: 110px;
+}
+.offer{
+    width:1320px;
+    display: flex;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.offer .offer-title h4{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.offer .offer-title{
+    width: 400px;
+}
+.offer .offer-title h2{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+
+}
+.offer p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.offer .offer-image{
+    box-sizing: border-box;
+    border: 15px solid rgb(255, 0, 0);
+    border-radius: 100%;
+    padding: 50px;
+}
+.offer .offer-description{
+    width: 463px;
+    margin-left: 70px;
+}
+.offer .offer-description h1{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.sale{
+    width: 1320px;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.sale .sale-subtitle{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.sale .sale-title{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 28px;
+
+}
+.sale .sale-content{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 90px;
+}
+.sale .sale-image{
+    display: flex;
+    background-image: url('./images/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+}
+.sale .image{
+    display: block;
+    width: 674px;
+    height: 580;
+}
+.items{
+    width: 1320px;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+.items .items-describe h4{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.items .items-describe h2{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+    margin-top: 16px;
+}
+.items .items-describe p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;}
+.items .collection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.items .collection img{
+    width: 424px;
+    height: 450px;
+    border-radius: 16px;
+    margin-top: 24px;
+}
+.subscription{
+    width: 1320px;
+    margin-top: 150px;
+    margin-left: 100px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+.subscription img{
+    width: 150px;
+    height: 150px;
+    margin-left: 585px;
+    margin-top: 80px;
+}
+.subscription h3{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+.subscription p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 200px;
+    margin-top: 20px;
+}
+.subscription form{
+    text-align: center;
+    height: 155px;
+}
+.subscription input[type=email]{
+    color: rgba(7, 2, 17, 0.3);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 50px 0px 0px 50px;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border: none;
+}
+.subscription label{
+    border-radius: 0px 50px 50px 0px;
+    background: rgb(255, 0, 0);
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+footer{
+    width: 1320px;
+}
+footer .address{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+footer .contact{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+footer .copyright{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
 }
